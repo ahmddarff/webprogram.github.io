@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML Forms Dan CSS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section class="container">
+        <header>Pembuatan Akun</header>
+        <form action="#" class="form">
+        <div class="input-box">
+            <label>Nama</label>
+            <input type="text" placeholder="--Isi Dengan Nama Lengkap Anda--" required/>
+        </div>
+
+        <div class="input-box">
+            <label>Username</label>
+            <input type="text" placeholder="--Isi Dengan Username Anda--" required/>
+        </div>
+
+        <div class="input-box">
+            <label>Email</label>
+            <input type="text" placeholder="--Isi Dengan Alamat Email Anda--" required/>
+        </div>
+
+        <div class="column">
+        <div class="input-box">
+        <label>Password</label>
+            <input type="password" placeholder="--Isi Password Anda--" required/>
+        </div>
+        </div>
+
+            <div class="input-box">
+            <label>Konfirmasi Paswword</label>
+                <input type="password" placeholder="--Konfirmasi Password Anda--" required/>
+            </div>
+            </div>
+
+            <div class="input-box">
+            <label>Tanggal Lahir</label>
+                <input type="date" placeholder="--dd/mm/yy--" required/>
+            </div>
+        </div>
+        
+        <div class="gender-box">
+            <h3>Jenis Kelamin</h3>
+            <div class="gender-option">
+            <div class="Jenis Kelamin">
+            <input type="radio" id="check" name="Jenis Kelamin"/>
+            <label for="check-male">Laki-Laki</label><br>
+            <input type="radio" id="check" name="Jenis Kelamin"/>
+            <label for="check-female">Perempuan</label>
+        </div>
+
+        <div class="gender-box">
+            <h3>Program Studi</h3>
+            <div class="gender-option">
+            <div class="Program Studi">
+            <input type="radio" id="check" name="Program Studi"/>
+            <label for="check-ILKOMP">Ilmu Komputer</label><br>
+            <input type="radio" id="check" name="Program Studi"/>
+            <label for="check-IT">Teknologi Informasi</label>
+        </div>
+
+        <div class="gender-box">
+            <h3>Mata Kuliah Favorit</h3>
+            <div class="gender-option">
+            <div class="Mata Kuliah Favorit">
+            <input type="checkbox" id="check" name="Mata Kuliah Favorit"/>
+            <label for="check-MATDAS">Matematika Dasar</label><br>
+            <input type="checkbox" id="check" name="Mata Kuliah Favorit"/>
+            <label for="check-DASPRO">Dasar Pemrograman</label><br>
+            <input type="checkbox" id="check" name="Mata Kuliah Favorit"/>
+            <label for="check-PROWEB">Pemrograman Web</label>
+        </div>
+            
+        <div class="input-box">
+            <label>Alamat</label><br>
+            <textarea name="alamat" id="alamat" rows="7" cols="20" placeholder="--Isi Alamat Anda--" required></textarea>
+            <div class="column">
+            <div class="select-box">
+                <select>
+                    <option hidden>Asal Negara</option>
+                    <option>Indonesia</option>
+                    <option>Malaysia</option>
+                    <option>Singapura</option>
+                    <option>Brunei Darussalam</option>
+                    <option>Filipina</option>
+                    <option>Thailand</option>
+                    <option>Kamboja</option>
+                    <option>Myanmar</option>
+                    <option>Laos</option>
+                    <option>Vietnam</option>
+                    <option>Australia</option>
+                </select>
+            </div>
+
+            <div class="select-box">
+                <select>
+                    <option hidden> Asal Kota</option>
+                    <option>Medan</option>
+                    <option>Binjai</option>
+                    <option>Berastagi</option>
+                    <option>Kabanjahe</option>
+                    <option>Sibolga</option>
+                </select>
+            </div>
+            </div>
+
+        <div class="column">
+                <input type="text" placeholder="--Masukkan Asal Kecamatan Anda--" required />
+                <input type="text" placeholder="--Masukkan Kode Pos--" required />
+            </div>
+        </div>
+
+        <button>Daftar</button><br><br>
+        <button>Reset</button>
+        </form>
+    </section>
+</body>
+</html>
